@@ -20,9 +20,12 @@
 }
 
 
+
 /* END REGION COMMON */
 
 /*HEADER*/
+
+
 
 header {
 
@@ -110,6 +113,7 @@ main {
 
     justify-content: space-between;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
     .single-social {
 
