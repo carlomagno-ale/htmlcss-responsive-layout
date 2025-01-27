@@ -32,7 +32,7 @@
 
 .fa-youtube {
 
-    color:red
+    color: red
 }
 
 /*END COLORS*/
@@ -40,17 +40,16 @@
 
 /*REGION COMMON*/
 
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: 1px black dashed;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px black dashed;
 }
 
 img {
 
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
@@ -58,7 +57,7 @@ a:link,
 a:visited {
 
     text-decoration: none;
-    
+
 }
 
 .container {
@@ -96,10 +95,3 @@ a:visited {
 }
 
 /* END LAYOUT GRID */
-
-
-
-
-
-
-

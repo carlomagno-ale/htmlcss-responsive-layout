@@ -68,6 +68,7 @@ main {
 
 .recipe {
 
+
     margin-top: 2rem;
 
 
@@ -86,14 +87,8 @@ main {
     }
 }
 
-.card-video {
-
-    background-color: var(--light-color);
-    flex-direction: column;
-
-}
-
 .ingredients {
+
 
     ul {
 
@@ -256,9 +251,7 @@ footer {
             gap: 1rem;
         }
 
-
     }
-
 
     .display {
 
