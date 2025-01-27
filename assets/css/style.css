@@ -12,4 +12,7 @@
 
     font-family: "Nerko One", serif;
     color: var(--logo-color);
+    font-style: italic;
+    text-shadow: 0.5px 1px 1px #8c8c8c;
+
 }
