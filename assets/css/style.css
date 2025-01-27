@@ -170,7 +170,6 @@ hr {
 }
 
 
-
 /* FOOTER */
 
 footer {
@@ -211,7 +210,7 @@ footer {
 
             li {
 
-                padding-right: 3rem;
+                padding-right: 4rem;
 
 
             }
@@ -219,10 +218,6 @@ footer {
 
 
     }
-
-
-
-
 
 
 }
@@ -235,11 +230,6 @@ footer {
 
         background-color: blueviolet;
         /*debug*/
-    }
-
-    .card-video {
-
-        flex-direction: row;
     }
 
     .ingredients {
@@ -281,8 +271,6 @@ footer {
         width: calc(100% / 12 * 4);
     }
     
-
-
 }
 
 
