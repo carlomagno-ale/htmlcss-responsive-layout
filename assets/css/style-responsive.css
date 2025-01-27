@@ -44,7 +44,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px black dashed;
+
 }
 
 img {
@@ -73,12 +73,6 @@ img {
 
 [class^="col"] {
     padding: 1rem;
-}
-
-.col {
-    width: auto;
-    flex-basis: auto;
-
 }
 
 .row {

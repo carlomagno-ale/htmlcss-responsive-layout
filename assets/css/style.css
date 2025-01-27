@@ -25,11 +25,6 @@
 
 }
 
-.b-margin {
-
-    margin-bottom: 1rem;
-}
-
 
 /* END REGION COMMON */
 
@@ -67,7 +62,6 @@ main {
 
 .recipe {
 
-    margin-top: 2rem;
 
 
     h2 {
@@ -81,12 +75,12 @@ main {
         color: var(--mid-color-text);
         font-weight: 400;
         padding-bottom: 0.5rem;
+        padding-top: 2rem;
 
     }
 }
 
 .ingredients {
-
 
     ul {
 
@@ -120,7 +114,6 @@ main {
     width: 100%;
 }
 
-
 /* SOCIAL */
 
 .social {
@@ -144,20 +137,22 @@ main {
 .adv {
 
     display: none;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /*ARTICLE*/
 
 .article {
 
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 
 }
 
 hr {
 
     margin-top: 0.5rem;
-    width: 15%;
+    width: 10%;
     border: 1px solid orange;
 }
 
@@ -197,7 +192,7 @@ footer {
     align-items: center;
     text-align: center;
     margin-inline: 0.5rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -345,6 +340,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        min-height: 90px;
 
     }
 
@@ -352,7 +348,6 @@ footer {
 
         align-items: flex-start;
         margin-inline: 1rem;
-        margin-top: 1rem;
         margin-bottom: 0.5rem;
     }
 
