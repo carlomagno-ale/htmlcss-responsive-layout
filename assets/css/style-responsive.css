@@ -71,9 +71,7 @@ img {
 /*LAYOUT GRID*/
 
 
-[class^="col"] {
-    padding: 1rem;
-}
+
 
 .row {
     display: flex;
