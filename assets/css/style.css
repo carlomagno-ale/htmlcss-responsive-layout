@@ -116,6 +116,17 @@ main {
     }
 }
 
+.col-8 {
+
+    width: 100%;
+
+} 
+
+.col-4 {
+
+    width: 100%;
+}
+
 
 
 /* SOCIAL */
@@ -266,7 +277,21 @@ footer {
         }
     }
 
+    .col-8 {
+
+        width: calc(100% / 12 * 8);
+    
+    }
+    
+    .col-4 {
+    
+        width: calc(100% / 12 * 4);
+    }
+    
+
 
 }
+
+
 
 /* END MEDIA QUERY */
