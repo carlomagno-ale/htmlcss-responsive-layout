@@ -89,8 +89,11 @@ main {
 .card-video {
 
     background-color: var(--light-color);
-    margin-top: 1.5rem;
     flex-direction: column;
+
+}
+
+.ingredients {
 
     ul {
 
@@ -106,18 +109,14 @@ main {
 
     }
 
-    .ingredients {
-
-        margin-left: 1rem;
-        padding-top: 1rem;
-    }
-
     h5 {
 
         font-size: 1.2rem;
         font-weight: bold;
     }
 }
+
+
 
 /* SOCIAL */
 
@@ -160,7 +159,7 @@ hr {
     width: 80%;
     margin-inline: auto;
     margin-top: 2rem;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
 
 }
 
