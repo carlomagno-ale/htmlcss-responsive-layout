@@ -6,6 +6,17 @@
 
 /* END FONT */
 
+/*REGION COMMON*/
+
+.main,
+.footer {
+
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    
+}
+
+/* END REGION COMMON */
+
 /*HEADER*/
 
 header {
@@ -25,10 +36,20 @@ header {
     text-shadow: 0.5px 1px 1px #8c8c8c;
 }
 
+/* MAIN */
 
-body {
+main {
 
-    background-color: black;
+    background-color: var(--bg-color);
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+
+    background-color: #7c69a4;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
 /* MEDIA QUERY */
