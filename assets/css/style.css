@@ -1,0 +1,15 @@
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* END FONT */
+
+/*HEADER*/
+
+#logo-title {
+
+    font-family: "Nerko One", serif;
+    color: var(--logo-color);
+}
