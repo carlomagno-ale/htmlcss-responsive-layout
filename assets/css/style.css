@@ -14,9 +14,15 @@
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
-.display {
+.display-title {
 
     display: none;
+}
+
+.display-social {
+
+    display: none;
+
 }
 
 .b-margin {
@@ -220,6 +226,12 @@ footer {
 
     }
 
+    .display-title {
+
+        display: unset;
+    }
+
+
     .img-container {
 
         float: left;
@@ -239,11 +251,6 @@ footer {
 
     }
 
-    .display {
-
-        display: unset;
-
-    }
 
 
 
@@ -270,7 +277,7 @@ footer {
 
     }
 
-    .display {
+    .display-social {
 
         display: unset;
 
