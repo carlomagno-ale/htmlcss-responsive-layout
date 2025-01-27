@@ -3,6 +3,7 @@
 :root {
 
     --logo-color: #ff9614;
+    --light-color: white;
 }
 
 /*END COLORS*/
@@ -17,16 +18,9 @@
   box-sizing: border-box;
 }
 
-body{
-
-    min-width: 1440px;
-    font-family: sans-serif;
-}
-
 img {
 
     max-width: 100%;
-    
 }
 
 a:link,
@@ -34,6 +28,11 @@ a:visited {
 
     text-decoration: none;
     
+}
+
+body {
+
+    min-width: 480px;
 }
 
 
@@ -114,6 +113,10 @@ a:visited {
     margin: 0 auto;
 }
 
-/* END LAYOUT GRID */
+.flex {
 
+    display: flex;
+}
+
+/* END LAYOUT GRID */
 

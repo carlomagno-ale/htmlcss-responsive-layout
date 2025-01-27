@@ -8,11 +8,42 @@
 
 /*HEADER*/
 
+header {
+
+    max-height: 85px;
+    background-color: var(--light-color);
+    justify-content: center;
+    align-items: center;
+}
+
 #logo-title {
 
     font-family: "Nerko One", serif;
+    font-size: 3rem;
+    margin-left: 1.5rem;
     color: var(--logo-color);
     font-style: italic;
     text-shadow: 0.5px 1px 1px #8c8c8c;
+}
 
+
+body {
+
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+
+        background-color: blueviolet;
+    }
 }
