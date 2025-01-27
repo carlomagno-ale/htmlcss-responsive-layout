@@ -20,7 +20,6 @@ header {
 
     font-family: "Nerko One", serif;
     font-size: 3rem;
-    margin-left: 1.5rem;
     color: var(--logo-color);
     font-style: italic;
     text-shadow: 0.5px 1px 1px #8c8c8c;
@@ -38,6 +37,19 @@ body {
 
         background-color: red;
     }
+
+    header {
+
+        justify-content: flex-start;
+
+        #logo-title {
+            
+            margin-left: 1.5rem;
+        }
+
+    }
+
+
 }
 
 @media screen and (min-width: 992px) {
