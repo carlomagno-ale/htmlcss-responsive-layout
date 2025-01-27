@@ -19,6 +19,16 @@
     display: none;
 }
 
+.b-margin {
+
+    margin-bottom: 1rem;
+}
+
+.t-margin {
+
+    margin-top: 1rem;
+}
+
 
 
 /* END REGION COMMON */
@@ -109,6 +119,8 @@ main {
     }
 }
 
+/* SOCIAL */
+
 .social {
 
     justify-content: space-between;
@@ -118,11 +130,38 @@ main {
     .single-social {
 
         background-color: var(--light-color);
-        box-shadow: 1px 1px black ;
+        box-shadow: 1px 1px black;
         padding: 0.5rem;
         border-radius: 2rem;
 
     }
+}
+
+/* ADV */
+
+
+/*ARTICLE*/
+
+.article {
+
+    margin-bottom: 3rem;
+
+}
+
+hr {
+
+    margin-top: 0.5rem;
+    width: 10%;
+    border: 1px solid orange;
+}
+
+.img-container {
+
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem ;
+
 }
 
 
@@ -133,6 +172,8 @@ footer {
 
     background-color: var(--secondary-color);
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    color: var(--light-color);
+    font-size: small;
 }
 
 
@@ -174,7 +215,7 @@ footer {
 
     }
 
-   
+
 
 
 
@@ -217,7 +258,7 @@ footer {
 
     .social {
 
-        
+
         span {
 
             color: black;
