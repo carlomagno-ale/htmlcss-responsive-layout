@@ -59,6 +59,7 @@ main {
     margin: 0 auto;
     margin-top: 2rem;
 
+
     h2 {
 
         color: var(--secondary-color);
@@ -78,12 +79,32 @@ main {
 
     background-color: var(--light-color);
     margin-top: 1.5rem;
+    flex-direction: column;
 
     ul {
 
         list-style: none;
-        margin-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        line-height: 2rem;
 
+        span {
+
+            font-weight: bold;
+        }
+
+    }
+
+    .ingredients {
+
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    h5 {
+
+        font-size: 1.2rem;
+        font-weight: bold;
     }
 }
 
@@ -129,6 +150,21 @@ footer {
     header {
 
         background-color: blueviolet;
+    }
+
+    .card-video {
+
+        flex-direction: row;
+    }
+
+    .no-display {
+
+        display: contents;
+    }
+
+    .recipe {
+
+        max-width: 1350px;
     }
 }
 
