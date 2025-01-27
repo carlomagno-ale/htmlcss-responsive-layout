@@ -12,8 +12,13 @@
 .footer {
 
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
-    
 }
+
+.no-display {
+
+    display: none;
+}
+
 
 /* END REGION COMMON */
 
@@ -21,19 +26,22 @@
 
 header {
 
-    max-height: 85px;
     background-color: var(--light-color);
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 #logo-title {
 
     font-family: "Nerko One", serif;
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: var(--logo-color);
     font-style: italic;
     text-shadow: 0.5px 1px 1px #8c8c8c;
+    line-height: 2.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
 }
 
 /* MAIN */
@@ -42,15 +50,54 @@ main {
 
     background-color: var(--bg-color);
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+
 }
+
+.recipe {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    h2 {
+
+        color: var(--secondary-color);
+
+    }
+
+    h4 {
+
+        color: var(--mid-color-text);
+        font-weight: 400;
+        padding-bottom: 0.5rem;
+
+    }
+}
+
+.card-video {
+
+    background-color: var(--light-color);
+    margin-top: 1.5rem;
+
+    ul {
+
+        list-style: none;
+        margin-left: 1rem;
+
+    }
+}
+
+
 
 /* FOOTER */
 
 footer {
 
-    background-color: #7c69a4;
+    background-color: var(--secondary-color);
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
+
+
 
 /* MEDIA QUERY */
 
@@ -58,21 +105,19 @@ footer {
 
 @media screen and (min-width: 768px) {
 
-    body {
-
-        background-color: red;
-    }
-
     header {
 
+        background-color: red;
         justify-content: flex-start;
 
         #logo-title {
 
-            margin-left: 1.5rem;
+            margin-left: 1rem;
         }
-
     }
+
+
+
 
 
 }
@@ -81,7 +126,7 @@ footer {
 
 @media screen and (min-width: 992px) {
 
-    body {
+    header {
 
         background-color: blueviolet;
     }
