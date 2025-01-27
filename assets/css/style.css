@@ -14,7 +14,7 @@
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
-.no-display {
+.display {
 
     display: none;
 }
@@ -129,6 +129,7 @@ footer {
     header {
 
         background-color: red;
+        /*debug*/
         justify-content: flex-start;
 
         #logo-title {
@@ -137,6 +138,29 @@ footer {
         }
     }
 
+    .ingredients {
+
+        ul {
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            li {
+
+                padding-right: 3rem;
+
+
+            }
+        }
+
+
+    }
+
+    .display {
+
+        display: contents;
+    }
 
 
 
@@ -150,6 +174,7 @@ footer {
     header {
 
         background-color: blueviolet;
+        /*debug*/
     }
 
     .card-video {
@@ -157,15 +182,24 @@ footer {
         flex-direction: row;
     }
 
-    .no-display {
+    img {
 
-        display: contents;
+        width: 70%;
     }
 
-    .recipe {
+    .ingredients {
 
-        max-width: 1350px;
+        ul {
+
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+
     }
+
+
 }
 
 /* END MEDIA QUERY */
