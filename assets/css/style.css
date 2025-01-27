@@ -185,8 +185,38 @@ footer {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     color: var(--light-color);
     font-size: small;
+
+    a:link {
+
+        color: var(--light-color);
+    }
 }
 
+.text-footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-inline: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.title-footer {
+
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+}
+
+.link-footer {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
 
 
 /* MEDIA QUERY */
@@ -219,7 +249,6 @@ footer {
 
                 padding-right: 4rem;
 
-
             }
         }
 
@@ -250,9 +279,6 @@ footer {
         padding-inline: 2rem !important;
 
     }
-
-
-
 
 }
 
@@ -306,6 +332,36 @@ footer {
 
         width: calc(100% / 12 * 4);
     }
+
+    /*footer*/
+
+    footer {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .text-footer {
+
+        align-items: flex-start;
+        margin-inline: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .title-footer {
+        
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .link-footer {
+
+        padding: 0 1rem 0 0;
+    }
+
 
 
 }

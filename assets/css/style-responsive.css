@@ -53,12 +53,6 @@ img {
     display: block;
 }
 
-a:link,
-a:visited {
-
-    text-decoration: none;
-
-}
 
 .container {
     width: 90%;
