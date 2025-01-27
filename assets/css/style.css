@@ -67,7 +67,6 @@ main {
 
 .recipe {
 
-
     margin-top: 2rem;
 
 
@@ -113,13 +112,14 @@ main {
 .col-8 {
 
     width: 100%;
-
+ 
 }
 
 .col-4 {
 
     width: 100%;
 }
+
 
 /* SOCIAL */
 
@@ -145,7 +145,6 @@ main {
 
     display: none;
 }
-
 
 /*ARTICLE*/
 
@@ -175,7 +174,6 @@ hr {
     margin-top: 1.5rem;
 
 }
-
 
 /* FOOTER */
 
@@ -225,10 +223,16 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    .recipe{
+
+        h2 {
+
+            font-size: 1.8rem;
+        }
+    }
+
     header {
 
-        background-color: red;
-        /*debug*/
         justify-content: flex-start;
 
         #logo-title {
@@ -251,7 +255,6 @@ footer {
 
             }
         }
-
 
     }
 
@@ -286,10 +289,12 @@ footer {
 
 @media screen and (min-width: 992px) {
 
-    header {
+    .recipe{
 
-        background-color: blueviolet;
-        /*debug*/
+        h2 {
+
+            font-size: 2rem;
+        }
     }
 
     .ingredients {
@@ -352,7 +357,7 @@ footer {
     }
 
     .title-footer {
-        
+
         font-weight: bold;
         padding: 0;
     }
@@ -361,8 +366,6 @@ footer {
 
         padding: 0 1rem 0 0;
     }
-
-
 
 }
 
