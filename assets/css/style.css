@@ -55,8 +55,6 @@ main {
 
 .recipe {
 
-    width: 90%;
-    margin: 0 auto;
     margin-top: 2rem;
 
 
@@ -105,6 +103,21 @@ main {
 
         font-size: 1.2rem;
         font-weight: bold;
+    }
+}
+
+.social {
+
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    .single-social {
+
+        background-color: var(--light-color);
+        box-shadow: 1px 1px black ;
+        padding: 0.5rem;
+        border-radius: 2rem;
+
     }
 }
 
@@ -157,10 +170,7 @@ footer {
 
     }
 
-    .display {
-
-        display: contents;
-    }
+   
 
 
 
@@ -182,11 +192,6 @@ footer {
         flex-direction: row;
     }
 
-    img {
-
-        width: 70%;
-    }
-
     .ingredients {
 
         ul {
@@ -197,6 +202,24 @@ footer {
         }
 
 
+    }
+
+
+    .display {
+
+        display: contents;
+
+    }
+
+    .social {
+
+        
+        span {
+
+            color: black;
+            font-weight: bold;
+
+        }
     }
 
 
